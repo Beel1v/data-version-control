@@ -1,0 +1,10 @@
+[core]
+    analytics = false
+    remote = minio
+['remote "remote_storage"']
+    url = ../../data/dvc_remote
+['remote "minio"']
+    url = s3://dvc-test
+    endpointurl = http://136.243.102.36:9100
+    access_key_id = minio
+    secret_access_key = 30CoExdl37
